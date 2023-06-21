@@ -1,4 +1,4 @@
-import { inputMailEl, inputMessageEl, formEl } from './03-feedback';
+import { inputMailEl, inputMessageEl, formData } from './03-feedback';
 
 export default function formOutput() {
   const savedForm = localStorage.getItem('feedback-form-state');
