@@ -12,7 +12,4 @@ export default function formOutput() {
 
     inputMessageEl.value = parsedForm.message || '';
   }
-
-  console.log(parsedForm.email);
-  console.log(parsedForm.message);
 }
